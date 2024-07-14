@@ -26,13 +26,19 @@
         <sonar.language>java</sonar.language>
     </properties>
 
-     <distributionManagement>
-        <repository>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0t5vcztrcvqb-artifactory-primary-0-releases</name>
+        <url>https://sairam01.jfrog.io/artifactory/mven-libs-release</url>
+    </repository>
+</distributionManagement>
+    
+      <!--  <repository>
             <id>central</id>
             <name>a0t5vcztrcvqb-artifactory-primary-0-releases</name>
             <url>https://sairam01.jfrog.io/artifactory/mvn-libs-release</url>
-        </repository>
-    </distributionManagement>     
+        </repository> -->    
     
     <dependencies>
         <dependency>
